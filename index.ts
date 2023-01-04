@@ -1,0 +1,3 @@
+const name = "Adian";
+
+export {};
