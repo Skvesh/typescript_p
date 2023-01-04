@@ -1,5 +1,5 @@
 {
-  "name": "typescriptproject",
+  "name": "typescript_p",
   "version": "1.0.0",
   "description": "typescript practice",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Skvesh/typesriptproject.git"
+    "url": "git+ssh://git@github.com/Skvesh/typescript_p.git"
   },
   "keywords": [
     "javascript",
@@ -19,7 +19,7 @@
   "author": "Adian Gokhateev <adian.gokhateev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Skvesh/typesriptproject/issues"
+    "url": "https://github.com/Skvesh/typescript_p/issues"
   },
-  "homepage": "https://github.com/Skvesh/typesriptproject#readme"
+  "homepage": "https://github.com/Skvesh/typescript_p#readme"
 }
