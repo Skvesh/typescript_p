@@ -3,7 +3,9 @@
         "module": "commonJS",
         "target": "ES2015",
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
     },
     "include": ["src/**/*"],
     "exlude": ["node_modules"]

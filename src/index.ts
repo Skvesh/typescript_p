@@ -1,5 +1,9 @@
+import { BaseStartup } from './base-startup';
 const name = "Adian";
-console.log('Hello World!');
+const app = new BaseStartup();
+// app.init();
+// console.log(app);
 
+console.log('Hello World!');
 
 export {};

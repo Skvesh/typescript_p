@@ -1,0 +1,48 @@
+{
+  "name": "@schlieger/bpc_typescript",
+  "version": "1.0.4",
+  "description": "Boiler plate code for typescript microservices",
+  "main": "dist/base-startup.js",
+  "types": "dist/base-startup.d.ts",
+  "dependencies": {
+    "@sentry/node": "^7.28.1",
+    "@sentry/types": "^7.28.1",
+    "@types/swagger-ui-express": "^4.1.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && rimraf dist-sample && npx tsc -p tsconfig.json",
+    "build-sample": "rimraf dist && rimraf dist-sample && npx tsc -p tsconfig.demo.json",
+    "sample": "npm run build-sample && node dist-sample/sample/index.js",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlieger/bpc_typescript.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schlieger/BPC_TypeScript/issues"
+  },
+  "homepage": "https://github.com/schlieger/BPC_TypeScript#readme"
+}

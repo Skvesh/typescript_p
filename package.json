@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/Skvesh/typescript_p#readme",
   "dependencies": {
-    "@schlieger/bpc_typescript": "git+https://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@github.com/schlieger/bpc_typescript.git"
+    "@schlieger/bpc_typescript": "git+https://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@github.com/schlieger/bpc-typescript.git"
   }
 }
