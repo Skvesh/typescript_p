@@ -1,0 +1,25 @@
+{
+  "name": "typescriptproject",
+  "version": "1.0.0",
+  "description": "typescript practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Skvesh/typesriptproject.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "js",
+    "ts"
+  ],
+  "author": "Adian Gokhateev <adian.gokhateev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skvesh/typesriptproject/issues"
+  },
+  "homepage": "https://github.com/Skvesh/typesriptproject#readme"
+}
